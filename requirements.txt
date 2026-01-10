@@ -1,0 +1,71 @@
+### Requisitos para usar a calculadora
+
+## Quais IDEs preciso ter para abrir o programa?
+
+Para rodar o projeto, você precisará instalar o Visual Studio Code, uma IDE de código moderno, leve e altamente extensível. 
+Ele permite que você configure exatamente os recursos de que precisa, transformando-o em uma poderosa ferramenta de desenvolvimento para C e outras linguagens.
+Para esse projeto, você necessitará de uma IDE para rodar o programa com uma extensão em C. Pode ser um aplicativo ou uma IDE online.
+Recomendamos que use o VSCode.
+
+## Como baixar o VSCode?
+
+Vá para o [site oficial do VSCode](https://code.visualstudio.com/) e faça o download da versão apropriada para o seu sistema.
+Clique duas vezes no arquivo baixado para iniciar a instalação.
+Marque as opções "Open with Code" para facilitar a abertura do VSCode diretamente na pasta de trabalho.
+Após a instalação, abra o VSCode.
+
+## Instalando a extensão C/C++
+
+No VSCode, podemos instalar extensões que aprimoram suas funcionalidades, permitindo que você personalize o editor de acordo com suas necessidades específicas. 
+A extensão C/C++ é particularmente importante, pois fornece recursos fundamentais para rodar o programa em C. 
+Para instalá-la, siga os passos abaixo:
+
+Pressione Ctrl+Shift+X para abrir a aba de extensões;
+Pesquise por "C/C++" (extensão oficial da Microsoft);
+Clique em "Install";
+
+## Instalando e configurando o MinGW-w64
+
+O MinGW-w64 é a ferramenta de compilação que utilizaremos para compilar nossos programas em C. 
+Para facilitar o processo, empregaremos um arquivo .bat, responsável por realizar automaticamente a instalação e a configuração necessárias. Para isso:
+Clique no link abaixo para baixar o arquivo .bat em seu computador.
+
+https://api.neps.academy/files/23
+
+Observação de segurança: É possível que o Windows exiba um aviso ao tentar executar o arquivo .bat. 
+Nesse caso, confirme a execução clicando em “Executar assim mesmo” para prosseguir com a instalação.
+Após o download, localize o arquivo e clique com o botão direito do mouse sobre ele. 
+Em seguida, selecione a opção “Abrir no Terminal”.
+Uma janela do terminal será aberta.
+Aguarde até que todo o processo de instalação e configuração seja concluído.
+Assim que finalizar, você poderá fechar o terminal.
+
+# Checar Instalação
+
+Para checar a instalação, precisamos fechar o Prompt de Comando e abri-lo novamente, para que ele capture as mudanças que fizemos no PATH. 
+Em seguinda, execute:
+
+gcc --version
+
+Deve aparecer algo como:
+
+C:\Users\tiago>gcc --version
+gcc (Rev2, Built by MSYS2 project) 14.2.0
+Copyright(C) Free Software Foundation, Inc.
+This is free software; see the source for copying conditions.   There is NO warranty;
+not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+
+## Instalando o Code Runner
+Para finalizar, instale a extensão Code Runner, que facilita a execução do código. 
+Siga os passos abaixo:
+
+Pressione Ctrl+Shift+X para abrir a aba de extensões;
+Pesquise por "Code Runner" (extensão oficial da Microsoft);
+Clique em "Install";
+Após a instalação, acesse as configurações:
+
+Pressione Ctrl+, (Ctrl + vírgula);
+Pesquise por "code runner run in terminal";
+Marque a opção correspondente.
+
+Agora você está pronto para brincar com a calculadora!
