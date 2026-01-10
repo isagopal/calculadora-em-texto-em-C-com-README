@@ -9,3 +9,10 @@ Para isso, aqui está o arquivo com todos os tutoriais de como fazer isso:
 
 https://github.com/isagopal/calculadora-em-texto-em-C-com-README/blob/main/requirements.txt
 
+Com tudo já instalado e pronto para utilizar a calculadora, você deve:
+entrar no VSCode, escrever o comando '>Git: Clone' e colar o [link do projeto pelo GitHub](https://github.com/isagopal/calculadora-em-texto-em-C-com-README.git).
+
+Feito isso, você deverá clicar no arquivo main.c na parte superior esquerda da tela do VSCode. Após isso, pressione Ctrl+Alt+N para rodar o programa da calculadora. A página do terminal abrirá na parte inferior central da tela.
+
+## Uso e Exemplos de Comando
+
