@@ -1,4 +1,4 @@
-### Requisitos para usar a calculadora
+# Requisitos para usar a calculadora
 
 ## Quais IDEs preciso ter para abrir o programa?
 
@@ -40,7 +40,7 @@ Uma janela do terminal será aberta.
 Aguarde até que todo o processo de instalação e configuração seja concluído.
 Assim que finalizar, você poderá fechar o terminal.
 
-# Checar Instalação
+### Checar Instalação
 
 Para checar a instalação, precisamos fechar o Prompt de Comando e abri-lo novamente, para que ele capture as mudanças que fizemos no PATH. 
 Em seguinda, execute:
