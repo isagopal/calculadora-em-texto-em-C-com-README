@@ -20,7 +20,7 @@ Para usar o programa corretamente, aqui vão algumas instruções sobre as funci
 
 Quando o programa for executado, ele deverá exibir um menu inicial com as seguintes opções:
 
-![Menu-inicial](MENU-INICIAL.png)
+![Menu-inicial](assets/MENU-INICIAL.png)
 
 Se o usuário não colocar um número válido (1, 2, 3, 4 ou 5), o programa imprimirá a seguinte mensagem de erro. Depois disso, perguntará se gostaria de fazer outra operação até que o usuário digite uma entrada válida:
 
