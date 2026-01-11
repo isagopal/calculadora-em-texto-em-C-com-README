@@ -83,6 +83,8 @@ Essas são as funcionalidades da nossa calculadora de texto em C que roda inteir
     
     ```
     calculadora-em-texto-em-C-com-README/  
+    │── assets/  
+    │   └── MENU-INICIAL.png    
     │── LICENSE
     │── main.c 
     │── README.md  
