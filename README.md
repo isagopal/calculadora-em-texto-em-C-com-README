@@ -70,4 +70,26 @@ _E logo após, perguntará se gostaria de fazer outra operação. :)_
 
 Deseja realizar outra operação? (s/n):
 
-_Essas são as funcionalidades da nossa calculadora de texto em C que roda inteiramente no terminal. Agradeço a atenção!_
+_Essas são as funcionalidades da nossa calculadora de texto em C que roda inteiramente no terminal!_
+
+## Estrutura do projeto
+    
+    ```
+    calculadora-em-texto-em-C-com-README/  
+    │── LICENSE
+    │── main.c 
+    │── README.md  
+    └── requirements.txt
+    ```
+
+Acima temos a estrutura de diretórios e arquivos principais do projeto.
+Cada arquio tem uma importância.
+
+O arquivo LICENSE é importate pois contém a licença MIT do projeto.
+O arquivo main.c é o código-fonte para usar a calculadora.
+O arquivo README.md contém todas as instruções e funcionalidades sobre como usar a calculadora e basicamente todas as informações importantes em um só lugar.
+E por último, o arquivo requirements.txt tem todos os tutoriais dos pré-requisitos para utilização da calculadora, como por exemplo instalar IDEs, extensões e compiladores.
+
+### Licença do projeto
+
+Aqui está o [link da licença de nosso projeto](https://github.com/isagopal/calculadora-em-texto-em-C-com-README/blob/main/LICENSE).
