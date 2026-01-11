@@ -94,6 +94,7 @@ Essas são as funcionalidades da nossa calculadora de texto em C que roda inteir
 Acima temos a estrutura de diretórios e arquivos principais do projeto.
 Cada arquio tem uma importância.
 
+O diretório assets contém a imagem MENU-INICIAL.png, que demonstra o menu inicial da calculadora.
 O arquivo LICENSE é importate pois contém a licença MIT do projeto.
 O arquivo main.c é o código-fonte para usar a calculadora.
 O arquivo README.md contém todas as instruções e funcionalidades sobre como usar a calculadora e basicamente todas as informações importantes em um só lugar.
