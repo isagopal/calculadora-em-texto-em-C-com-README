@@ -18,11 +18,12 @@ Feito isso, você deverá clicar no arquivo main.c na parte superior esquerda da
 
 Para usar o programa corretamente, aqui vão algumas instruções sobre as funcionalidades!
 
-_Quando o programa for executado, ele deverá exibir um menu inicial com as seguintes opções:_
+Quando o programa for executado, ele deverá exibir um menu inicial com as seguintes opções:
 
-===============================
-   Calculadora Simples
-===============================
+ ```
+ ===============================
+    Calculadora Simples
+ ===============================
 Selecione uma operação:
 1. Adição
 2. Subtração
@@ -30,47 +31,64 @@ Selecione uma operação:
 4. Divisão
 5. Sair
 Opção:
+```
 
-_Se o usuário não colocar um número válido_ (1, 2, 3, 4 ou 5), _o programa imprimirá a seguinte mensagem de erro. Depois disso, perguntará se gostaria de fazer outra operação até que o usuário digite uma entrada válida:_
+Se o usuário não colocar um número válido (1, 2, 3, 4 ou 5), o programa imprimirá a seguinte mensagem de erro. Depois disso, perguntará se gostaria de fazer outra operação até que o usuário digite uma entrada válida:
 
+```
 Opcao invalida. Digite um numero de 1 a 5.
 Deseja realizar outra operação? (s/n):
+```
 
-_Se o usuário colocar uma opção que não seja um número (ex: caracteres), o programa imprimirá a seguinte mensagem de erro. Depois disso, perguntará se gostaria de fazer outra operação até que o usuário digite uma entrada válida:_
+Se o usuário colocar uma opção que não seja um número (ex: caracteres), o programa imprimirá a seguinte mensagem de erro. Depois disso, perguntará se gostaria de fazer outra operação até que o usuário digite uma entrada válida:
 
+```
 Entrada invalida. Digite um numero.
+```
 
-_Se o usuário escolher uma operação válida (por exemplo,_ "1" _para adição), o programa deverá solicitar dois números:_
+Se o usuário escolher uma operação válida (por exemplo, "1" para adição), o programa deverá solicitar dois números:
 
-_No caso abaixo, os números escolhidos foram_ 5 _e_ 3.
-_O programa imprimirá o resultado da operação escolhida._
+No caso abaixo, os números escolhidos foram 5 e 3.
+O programa imprimirá o resultado da operação escolhida.
 
+```
 Digite o primeiro número: 5
 Digite o segundo número: 3
 Resultado: 5 + 3 = 8
+```
 
-_Após exibir o resultado, o programa perguntará se o usuário deseja realizar outra operação:_
+Após exibir o resultado, o programa perguntará se o usuário deseja realizar outra operação:
 
+```
 Deseja realizar outra operação? (s/n):
+```
 
-_Se o usuário digitar "s", o programa volta ao menu inicial. Caso contrário, ele exibe uma mensagem de despedida e encerra:_
+Se o usuário digitar "s", o programa volta ao menu inicial. Caso contrário, ele exibe uma mensagem de despedida e encerra:
 
+```
 Obrigado por usar a calculadora! Até a próxima.
+```
 
-_Se o usuário não colocar uma resposta válida (s/S para sim e n/N para não), o programa dirá a mesma mensagem de erro. Depois disso, perguntará se gostaria de fazer outra operação até que receba uma entrada válida:_
+Se o usuário não colocar uma resposta válida (s/S para sim e n/N para não), o programa dirá a mesma mensagem de erro. Depois disso, perguntará se gostaria de fazer outra operação até que receba uma entrada válida:
 
+```
 Resposta invalida. Digite 's' para sim ou 'n' para nao.
 Deseja realizar outra operação? (s/n):
+```
 
-_Caso o usuário tente dividir por zero, o programa dirá:_ 
+Caso o usuário tente dividir por zero, o programa dirá:
 
+```
 Erro: Divisao por zero nao e permitida.
+```
 
-_E logo após, perguntará se gostaria de fazer outra operação. :)_
+E logo após, perguntará se gostaria de fazer outra operação.
 
+```
 Deseja realizar outra operação? (s/n):
+```
 
-_Essas são as funcionalidades da nossa calculadora de texto em C que roda inteiramente no terminal!_
+Essas são as funcionalidades da nossa calculadora de texto em C que roda inteiramente no terminal!
 
 ## Estrutura do projeto
     
